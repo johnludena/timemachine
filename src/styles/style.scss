@@ -1,10 +1,40 @@
 * {
 	font-family: Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
+	font-size: 16px;
 }
 
 h1 {
-	font-size: 300px;
+	font-size: 100px;
 	text-align: center;
 	color: fuchsia;
+}
+
+button {
+    border-radius: 2px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 1px 4px 0px #0c0a42;
+    color: #fff;
+    font-size: 24px;
+    background: #5854ce;
+    margin: 20px;
+}
+
+button.stop {
+	background: red;
+}
+
+.tm-container {
+	margin: 200px auto;
+	max-width: 800px;
+}
+
+.year {
+	text-align: center;
+	font-size: 120px;
+}
+
+.buttons {
+	text-align: center;
 }
